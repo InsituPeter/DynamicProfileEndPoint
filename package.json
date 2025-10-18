@@ -1,0 +1,25 @@
+{
+  "name": "dynamicprofileendpoint",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "http-status-codes": "^2.3.0",
+    "mongoose": "^8.19.1"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "nodemon": "^3.1.10"
+  }
+}
