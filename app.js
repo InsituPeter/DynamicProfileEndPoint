@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors')
 const axios = require('axios');
 const rateLimit=require("express-rate-limit")
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
 const CustomError = require('./errors');
 const { StatusCodes } = require("http-status-codes");
 
